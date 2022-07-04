@@ -1,0 +1,187 @@
+/* -----Variables---- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0 ;
+    font-family: "Poppins",'sans-serif';
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style-type: none;
+}
+
+.btn{
+    background-color:royalblue;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 50px;
+    padding:10px;
+    cursor: pointer;
+    
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:2em 0;
+    
+}
+
+.nav-item li{
+    display:inline-block;
+    font-size: 20px;
+    font-weight: 300;
+    margin:0 10px;
+    
+}
+.hero{
+    width: 100%;
+    
+}
+.banner{
+   /* box-shadow: 4px 4px 8px 8px rgba(0,0,0,0.08); */
+    max-width: 90%;
+    height:100vh;
+    margin:0 auto;
+    padding-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title {
+    width:35%;
+    
+}
+
+.title h1{
+    font-size:40px;
+    line-height: 1.25em;
+}
+
+.image img{
+    height: 370px;
+    margin-left: 10%;
+    margin-top:3rem ;
+    box-shadow: 4px 4px 8px 8px rgba(0,0,0,0.08);
+    position: relative;
+    top: -20px;
+}
+
+.span{
+    background-color: cyan;
+    border-radius: 20px;
+    padding:0 8px ;
+} 
+
+.service{
+    width:100%;
+    height:100vh;
+}
+
+.s-title{
+    text-align: center;
+}
+
+.s-title h4{
+    color: royalblue;
+}
+
+.s-title h2{
+    margin:0 auto;
+    max-width:50% ;
+}
+.s-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:5rem;
+    max-width: 90%;
+    margin:0 auto;
+}
+
+.s-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.s-box i{
+    font-size: 5rem;
+}
+
+.learn{
+    height: 80vh;
+    width:100%;
+}
+
+.image-box img{
+    height: 250px;
+    box-shadow: 2px 9px 10px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+.l-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin:0 auto;
+}
+
+.l-desc{
+    position: relative;
+    left:5rem;
+}
+
+.count-sec{
+    width:100%;
+    height: 70vh;
+}
+
+.c-title{
+    text-align:center;
+    text-shadow: 5px;
+    padding-bottom: 5rem;
+}
+
+.count{
+    padding-top: 1px;
+    max-width: 80%;
+    margin:0 auto;
+}
+
+.count-contain{
+    background-color:black;
+    padding:3rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.countbox{
+    padding-top: 10px;
+    background-color:coral;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.countbox i,h3{
+    font-size: 25px;
+}
+
+
+
